@@ -1,0 +1,66 @@
+html, body {
+    margin: 30 auto;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 375px;
+    border: 1px solid;
+}
+
+.logo{
+    width: 127px;
+    margin: 0 10px;
+}
+
+.user-avatar{
+    width: 34px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    width: 34px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+main{
+    border-top: 1px solid #C6C6C6;
+}
+
+
+.post-header{
+    display: flex;
+}
+
+.desc{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+}
+
+.accent-text{
+    font-weight: 700;
+}
+
+.post-image{
+    width: 100%;
+}
+
+.btn{
+    width: 23px;
+    height: 24px;
+    margin: 13px 0 7px 10px;
+}
+
+.likes-caption p{
+    margin: 0 0 10px 13px;
+}

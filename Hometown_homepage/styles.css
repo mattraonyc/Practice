@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero {
+    background-image: url(images/hero_background.jpeg);
+    background-size: cover;
+    background-position: 100%;
+    padding: 100px 150px;
+    color:#edf2f4;
+    margin: 0;
+}
+
+.pageTitle {
+    background-color: #d90429;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+}
+
+.heroDes {
+    background-color: #ef233c;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.activities {
+    background-color: #edf2f4;
+    padding: 40px 0;
+    color: #2b2d42;
+    height: 580px;
+}
+
+#topThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eachActivity {
+    width: 180px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+
+#spotsAvatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    position: absolute;
+}
+
+.topThreeDes {
+    width: 180px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 20px;
+}
+
+.guideCard {
+    color: #2b2d42;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #90e0ef;
+    border-radius: 10px;
+    border-bottom: 10px solid #8d99ae;
+}
+
+#mattPic {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px
+}
+
+#mattPic:hover {
+    cursor: pointer;
+}
+
