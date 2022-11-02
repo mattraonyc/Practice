@@ -1,0 +1,67 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="header">Jimmy's Diner</h1>
+            <h2 class="header">The best burgers and pizzas in town</h2>
+        </header>
+
+        <main>
+            <div class="items-list" id="items-list"></div>
+                <div class="items"></div>
+            </div>
+            <div class="cart-container hide" id="cart-container">
+                <h2>Your order</h2>
+                <div id="cart"></div>
+                <div class="cart-items total-price">
+                    <h2>Total price: </h2>
+                    <h2 class="cart-price" id="total-price"></h2>
+                </div>
+                <button class="complete-order" id="complete-order">Complete order</button>
+            </div>
+            <div class="card-form hide" id="card-form">
+                <form>
+                    <label class="card-btn" for="card-name">Enter card details<span><button class="cancel" id="cancel-btn">X</button></span></label>
+                    <input name="name" 
+                    class="card-info" 
+                    id="card-name" 
+                    type="text" 
+                    placeholder="Enter your name" 
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    maxlength="30"
+                    required>
+
+                    <input name="card-number" 
+                    class="card-info" 
+                    id="card-number" 
+                    type="number" 
+                    placeholder="Enter card number" 
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    maxlength="16"
+                    required>
+
+                    <input name="CVV" 
+                    class="card-info" 
+                    id="card-cvv" 
+                    type="number" 
+                    placeholder="Enter CVV" 
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    maxlength="4"
+                    required>
+
+                    <button 
+                    type="submit" 
+                    class="submit-button">Pay</button>
+                </form>
+            </div>
+        </main>
+
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

@@ -1,0 +1,204 @@
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+body {
+    font-family: 'Smythe', cursive;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+} 
+
+header{
+    height: 135px;
+    color: #ffffff;
+    background-color: #681d1d;
+    border-radius: 10px;
+    background-image: url(images/restaurant-banner.jpeg);
+    background-size: 100%;
+}
+
+h1.header{
+    font-size: 39px;
+    padding-top: 20px;
+}
+
+h2.header{
+    font-size: 22.42px;
+}
+
+.header{
+    margin: 5px;
+}
+
+.item-image{
+    font-size: 78;
+    margin: 40 20 40 0;
+}
+
+.item-info{
+    margin: 10;
+}
+
+h2.item-info{
+    font-size: 28px;
+}
+
+h3.item-info{
+    color: #8B8B8B;
+    font-size: 16px;
+}
+
+h2.price.item-info{
+    font-size: 20px;
+}
+
+.info-container{
+    margin-top: 0;
+}
+
+.items,
+.item{
+    display: flex;
+}
+
+.item{
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 0px;
+    width: 500;
+}
+
+button.add-btn,
+button.cancel{
+    font-family: 'Inter', sans-serif;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #D2D2D2;
+    cursor: pointer;
+}
+
+button.add-btn{    
+    margin-left: auto;
+    width: 50;
+    height: 50;
+    font-size: 32px;
+}
+
+.cart-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+.complete-order,
+.submit-button{
+    padding: 20px;
+    font-family: Verdana;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #16DB99;
+    border: none;
+    cursor: pointer;
+}
+
+.card-btn{
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.submit-button{
+    width: 380px;
+    margin-top: 20px;
+}
+
+.complete-order{
+    width: 430px;
+}
+
+.grey-out{
+    background-color: #8B8B8B;
+    cursor:initial;
+}
+
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500;
+}
+
+h2.cart-price{
+    position: absolute;
+    right: 0;
+}
+
+.total-price{
+    border-top: 1px solid;
+}
+
+.remove{
+    color: #BBBBBB;
+    cursor: pointer;
+    margin: 25 20;
+    display: inline;
+    font-size: 20;
+}
+
+span.number{
+    display: inline;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 30;
+
+}
+
+button.cancel{
+    position: absolute;
+    right: 35px;
+    width: 30;
+    height: 30;
+    font-size: 20px;
+}
+
+label{
+    margin: 20;
+    font-size: 30;
+}
+
+.card-form{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 470;
+    height: 470;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-info{
+    width: 400px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 8px;
+}
