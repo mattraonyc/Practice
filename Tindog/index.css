@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+header{
+    display: flex;
+    width: 550px;
+    height: 81px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+header .icons{
+    height: 34px;
+    padding: 24px;
+}
+
+main{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    height: 892px;
+}
+
+.dog{
+    width: 534px;
+    background-size: cover;
+    height:700px;
+    /* padding-top: 600px; */
+    color: #F8F8F8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.text-box {
+    margin-top: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.badge-like{
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    left: 290px;
+    bottom: 530px;
+    /* margin-bottom: auto;
+    margin-left: auto; */
+    transform: rotate(30deg);
+}
+
+.hide{
+    display: none;
+}
+
+.badge-nope{
+    position: absolute;
+    width: 233.91px;
+    height: 116.26px;
+    right: 290px;
+    bottom: 530px;
+    /* margin-bottom: auto;
+    margin-right: auto; */
+    transform: rotate(-30deg);
+}
+
+h2{
+    font-weight: 400;
+    color: #B7B7B7
+}
+
+button{
+    border-radius: 50%;
+    width: 91.87px;
+    height: 91.87px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border: none;
+    margin: 12px;
+}
+
+.btns{
+    text-align: center;
+}
+
+#nope-btn:active{
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
+
+#like-btn:active{
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
