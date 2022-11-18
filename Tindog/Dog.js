@@ -10,14 +10,13 @@ class Dog{
         const nope = this.getNopeHtml()
         const like = this.getLikeHtml()
         return `
-        <div class="dog" 
-        style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%), url(${avatar})">
+        <img class="dog" 
+         src="${avatar}")">
             <div>${nope} ${like}</div>
             <div class="text-box">
             <h1>${name}, ${age}</h1>
             <h2>${bio}</h2>
             </div>
-        </div>
         `
     }
 

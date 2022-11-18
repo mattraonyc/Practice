@@ -24,21 +24,37 @@ main{
     height: 892px;
 }
 
-.dog{
+#dogs {
+    position: relative;
+}
+
+.dog, 
+.end-message{
     width: 534px;
     background-size: cover;
     height:700px;
     /* padding-top: 600px; */
-    color: #F8F8F8;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
+.dog {
+    background-image: 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.9) -11.44%, rgba(0, 0, 0, 0) 39.97%);
+    color: #F8F8F8;
+}
+
+.end-message {
+    color:rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
 .text-box {
-    margin-top: auto;
-    margin-right: auto;
+    position: absolute;
+    top: 550;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -69,9 +85,13 @@ main{
     transform: rotate(-30deg);
 }
 
-h2{
+.text-box h2 {
     font-weight: 400;
     color: #B7B7B7
+}
+
+.text-box h1 {
+    color: whitesmoke;
 }
 
 button{
